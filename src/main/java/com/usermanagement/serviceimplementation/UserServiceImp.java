@@ -33,14 +33,13 @@ public class UserServiceImp implements UserService {
 
 	@Override
 	public User updateUser(User user) {
-		return userRepository.updateUser(user);
+		return null;//userRepository.updateUser(user);
 		
 	}
 
 	@Override
 	public User deleteUser(String id) {
-		userRepository.deleteUser(id);
-		return null;
+		return null;//userRepository.deleteUser(id);
 	}
 
 }
