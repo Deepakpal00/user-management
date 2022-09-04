@@ -39,7 +39,12 @@ public class UserServiceImp implements UserService {
 
 	@Override
 	public User deleteUser(String id) {
+		delectUserCheck();
 		return null;//userRepository.deleteUser(id);
+	}
+
+	private void delectUserCheck() {
+		System.out.println("DELETE CHECK");
 	}
 
 }
